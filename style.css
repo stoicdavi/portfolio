@@ -1,0 +1,92 @@
+/** Home page **/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ecdddd;
+    background-color: #242121;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap');
+
+.flex-content{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+
+}
+h1{
+    display: block;
+    padding: 20px;
+}
+.flex-content{
+    margin: 20px;
+    
+}
+.flex-content2{
+   width: auto;
+   margin: 10px;
+
+
+}
+.flex-content2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.flex-content2 ul li{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.flex-content2 ul li a:hover{
+    background-color: #504444;
+    cursor: pointer;
+    transition: 1s;
+    color: aqua;
+    border-radius: 3px;
+    padding: 3px;
+}
+.content{
+    width: 20%;
+    margin: 10px;
+    line-height: 1.5;
+}
+.flex-content3{
+    
+
+   margin: 10px;
+}
+img{
+    border-radius: 7px;
+    height: 500px;
+    width: 350px;
+}
+.footer{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    width: 95%;
+}
+.social a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.social a:hover{
+    color: aqua;
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+/*** About css****************/
+.body-content{
+    margin: 10px;
+}
+
