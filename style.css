@@ -15,6 +15,7 @@ body {
     display: flex;
     margin: 20px;
     justify-content: space-between;
+    flex-grow: 1;
 
 }
 .home-h1{
@@ -24,12 +25,14 @@ body {
 }
 .flex-content{
     margin-top: 40px;
+    flex-grow: 1;
     
 }
 .flex-content2{
    width: auto;
    margin: 10px;
    display:inline-block;
+   flex-grow: 1;
 
 
 }
@@ -37,6 +40,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex-grow: 1;
 }
 .flex-content2 ul li{
     padding: 10px;
@@ -148,4 +152,12 @@ a{
     font-weight: 300;
     font-size: 20px;
     
+}
+/***************Education css**************/
+.edh1{
+    text-align: center;
+}
+#pic img{
+    height: 300px;
+    margin-left: 30px;
 }
