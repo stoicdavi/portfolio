@@ -17,17 +17,19 @@ body {
     justify-content: space-between;
 
 }
-h1{
-    display: block;
-    padding: 20px;
+.home-h1{
+    position:fixed;
+    top: 0;
+    margin-left: 20px;
 }
 .flex-content{
-    margin: 20px;
+    margin-top: 40px;
     
 }
 .flex-content2{
    width: auto;
    margin: 10px;
+   display:inline-block;
 
 
 }
@@ -42,12 +44,12 @@ h1{
     border-radius: 7px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 20px;;
 }
-.flex-content2 ul li a:hover{
+a:hover{
     background-color: #504444;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.4s;
     color: aqua;
     border-radius: 3px;
     padding: 3px;
@@ -58,9 +60,7 @@ h1{
     line-height: 1.5;
 }
 .flex-content3{
-    
-
-   margin: 10px;
+       margin: 10px;
 }
 img{
     border-radius: 7px;
@@ -74,6 +74,9 @@ img{
 hr{
     width: 95%;
 }
+a{
+    text-decoration: none;
+}
 .social a{
     padding: 10px;
     color: white;
@@ -85,8 +88,64 @@ hr{
     transform: rotate(360deg);
     transition: 0.4s;
 }
+
 /*** About css****************/
 .body-content{
     margin: 10px;
 }
+.nav1 ul{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.nav1 ul li{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+.flex-content-ab{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.bio{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    line-height: 1.5;
+    float: right;
+   
+}
+/**** childhood css*********/
+.body-text{
+    margin-left: 30px;
+    padding: 10px;
+    width: 80%;
+    line-height: 1.5;
+    display: inline-block;
+}
+.more-about ul{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.more-about ul li{
+    list-style: none;
+    margin: 10px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
